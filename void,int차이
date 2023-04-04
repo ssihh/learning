@@ -1,0 +1,10 @@
+int=a; //정수형(int) a선언
+
+int num1() { return 123; } //데이터타입 int형 함수 num1(): 정수형 return값이 있음.
+
+void num2() { a=123; } //데이터타입 void형 함수 num2(): return값이 없음. a값 수정함
+
+print(num1()); //return값 123을 받아 정수 출력
+print(num2()); //return값 없어서 error뜸
+print(a); //num2 에서 정의한 값인 정수 123 출력
+
